@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #171717;
+}
+
+.displacement-canvas {
+  position: fixed;
+  width: 256px;
+  height: 256px;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  display: none; /* uncomment this for developing  */
+}
