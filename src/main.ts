@@ -187,7 +187,7 @@ const timer = new Timer();
 const tick = () => {
   timer.update();
   // const elapsedTime = timer.getElapsed();
-  const deltaTime = timer.getDelta();
+  // const deltaTime = timer.getDelta();
 
   // update controls to enable damping
   controls.update();
